@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04EA57E91D927D51002B19E4 /* UIImage+BlurImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA57E81D927D51002B19E4 /* UIImage+BlurImage.m */; };
+		04EA57EB1D928936002B19E4 /* hello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04EA57EA1D928936002B19E4 /* hello.jpg */; };
+		04EA57EE1D928F0F002B19E4 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EA57ED1D928F0F002B19E4 /* Accelerate.framework */; };
 		04FF26641D911EE2007AE003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF26631D911EE2007AE003 /* main.m */; };
 		04FF26671D911EE2007AE003 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF26661D911EE2007AE003 /* AppDelegate.m */; };
 		04FF266A1D911EE2007AE003 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF26691D911EE2007AE003 /* ViewController.m */; };
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04EA57E71D927D51002B19E4 /* UIImage+BlurImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BlurImage.h"; sourceTree = "<group>"; };
+		04EA57E81D927D51002B19E4 /* UIImage+BlurImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BlurImage.m"; sourceTree = "<group>"; };
+		04EA57EA1D928936002B19E4 /* hello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hello.jpg; sourceTree = "<group>"; };
+		04EA57ED1D928F0F002B19E4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		04FF265F1D911EE2007AE003 /* GDImageBlur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDImageBlur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FF26631D911EE2007AE003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04FF26651D911EE2007AE003 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EA57EE1D928F0F002B19E4 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04EA57EC1D928F0F002B19E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EA57ED1D928F0F002B19E4 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04FF26561D911EE2007AE003 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +101,7 @@
 				04FF267B1D911EE2007AE003 /* GDImageBlurTests */,
 				04FF26861D911EE2007AE003 /* GDImageBlurUITests */,
 				04FF26601D911EE2007AE003 /* Products */,
+				04EA57EC1D928F0F002B19E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +122,9 @@
 				04FF26661D911EE2007AE003 /* AppDelegate.m */,
 				04FF26681D911EE2007AE003 /* ViewController.h */,
 				04FF26691D911EE2007AE003 /* ViewController.m */,
+				04EA57EA1D928936002B19E4 /* hello.jpg */,
+				04EA57E71D927D51002B19E4 /* UIImage+BlurImage.h */,
+				04EA57E81D927D51002B19E4 /* UIImage+BlurImage.m */,
 				04FF266B1D911EE2007AE003 /* Main.storyboard */,
 				04FF266E1D911EE2007AE003 /* Assets.xcassets */,
 				04FF26701D911EE2007AE003 /* LaunchScreen.storyboard */,
@@ -207,6 +227,7 @@
 				TargetAttributes = {
 					04FF265E1D911EE2007AE003 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A2A97RXWXX;
 						ProvisioningStyle = Automatic;
 					};
 					04FF26771D911EE2007AE003 = {
@@ -249,6 +270,7 @@
 				04FF26721D911EE2007AE003 /* LaunchScreen.storyboard in Resources */,
 				04FF266F1D911EE2007AE003 /* Assets.xcassets in Resources */,
 				04FF266D1D911EE2007AE003 /* Main.storyboard in Resources */,
+				04EA57EB1D928936002B19E4 /* hello.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +297,7 @@
 			files = (
 				04FF266A1D911EE2007AE003 /* ViewController.m in Sources */,
 				04FF26671D911EE2007AE003 /* AppDelegate.m in Sources */,
+				04EA57E91D927D51002B19E4 /* UIImage+BlurImage.m in Sources */,
 				04FF26641D911EE2007AE003 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +445,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A2A97RXWXX;
 				INFOPLIST_FILE = GDImageBlur/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.GDImageBlur;
@@ -433,6 +458,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A2A97RXWXX;
 				INFOPLIST_FILE = GDImageBlur/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.GDImageBlur;
@@ -505,6 +532,7 @@
 				04FF268E1D911EE2007AE003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04FF268F1D911EE2007AE003 /* Build configuration list for PBXNativeTarget "GDImageBlurTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +541,7 @@
 				04FF26911D911EE2007AE003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04FF26921D911EE2007AE003 /* Build configuration list for PBXNativeTarget "GDImageBlurUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +550,7 @@
 				04FF26941D911EE2007AE003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
